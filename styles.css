@@ -1,0 +1,93 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #ffcc00;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.hero-section {
+    background-image: url('https://example.com/nanas-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-section h2 {
+    font-size: 3em;
+    margin: 0 0 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.produk-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.produk-item {
+    margin-bottom: 30px;
+}
+
+.produk-item h3 {
+    font-size: 1.5em;
+    color: #ffcc00;
+}
+
+.kontak-section {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
